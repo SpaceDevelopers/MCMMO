@@ -1,0 +1,16 @@
+name: MCMMO
+version: 1.0.0
+main: RTG\McMMO\Loader
+api: 2.1.0
+author: IG
+commands:
+    mcmmo:
+        permission: mcmmo.command
+        description: "MCMMO"
+permissions:
+    mcmmo.command:
+        default: op
+    mcmmo.addcredits:
+       default: op
+    mcmmo.reducecredits:
+        default: op
